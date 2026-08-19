@@ -1,0 +1,9 @@
+{
+  "name": "timeline-visualizer-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check app.js && node --check parser-worker.js && node --check sw.js && node --check lib/timeline-parser.js && node --check lib/journey.js && node --check lib/tile-cache.js && node --check lib/renderer.js && node --check lib/video-exporter.js",
+    "test": "npm run check && node --test tests/*.test.mjs"
+  }
+}
