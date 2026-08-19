@@ -1,0 +1,28 @@
+{
+  "id": "./",
+  "name": "Timeline Visualizer Web",
+  "short_name": "Timeline",
+  "description": "Google マップのTimeline JSONから、端末内で旅行経路の動画と画像を作成します。",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fffafb",
+  "theme_color": "#e90064",
+  "categories": ["travel", "photo", "utilities"],
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
