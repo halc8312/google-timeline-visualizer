@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Timeline Visualizer">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e90064"/>
+      <stop offset="1" stop-color="#b6004d"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#background)"/>
+  <circle cx="256" cy="256" r="176" fill="#fff8fb" opacity=".98"/>
+  <path d="M139 321c42-70 78-96 122-61 51 40 69-85 134-75" fill="none" stroke="#e90064" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="139" cy="321" r="28" fill="#24191d"/>
+  <circle cx="139" cy="321" r="15" fill="#fff8fb"/>
+  <circle cx="395" cy="185" r="32" fill="#24191d"/>
+  <circle cx="395" cy="185" r="19" fill="#e90064"/>
+</svg>
